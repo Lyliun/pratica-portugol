@@ -3,7 +3,7 @@ programa
 	funcao inicio()
 	{
 		inteiro vetor[10], i, soma = 0
-		real media
+		inteiro media
 
 		para (i = 0; i < 10; i++)
 		{
@@ -28,7 +28,7 @@ programa
 			}
 		}
 		escreva("\nMédia e soma dos elementos: ")
-		media = soma / 10.0
+		media = soma / 10
 		escreva("\nSoma ",soma)
 		escreva("\nMédia ",media)
 	}
